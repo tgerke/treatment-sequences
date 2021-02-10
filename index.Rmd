@@ -98,3 +98,6 @@ ehr_data %>%
 
 ### Final note
 One thing to note is that concurrent or repeat treatments not handled separately in the above code patterns, and the tables only print a given drug once according to first date of receipt. For example, if a patient's regime was Abiraterone + Prednisone &#8594; Enzalutamide &#8594; Abiraterone, that patient's treatment sequence would show up as `Abiraterone, Prednisone, Enzalutamide`. There are certainly more rigorous ways to do this (list columns come to mind); however, I've found this sort of view goes a long way towards assessing study feasibility or honing attention to those patients with treatment regimes relevant to a particular research study. 
+
+Full code at: [https://github.com/tgerke/treatment-sequences](https://github.com/tgerke/treatment-sequences)
+
